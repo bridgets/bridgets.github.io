@@ -30,6 +30,13 @@ p,td{
     margin:0; padding:0;
     font-family: "PT Sans Narrow", sans-serif;
 }
+p a:link, p a:visited{
+    color:black;
+    text-decoration:none;
+}
+p a:hover{
+    background-color:#7ec9b1;
+}
 .item h2{
     font-size: 20px;
     font-weight: bold;
@@ -388,6 +395,9 @@ p,td{
         <input id="zipInput" type="text" placeholder="Enter NYC Zip Code" />
     </div>
 </div>
+
+<p style="position:absolute;z-index:10;bottom:20px;padding-right:5px;right:0px;text-align:right;font-size:14px">Map by<br>
+    <a target="_blank" href="http://cpgruber.github.io">CPGruber</a></p>
 
 <script>
 $( document ).ready(function() {
