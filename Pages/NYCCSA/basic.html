@@ -393,7 +393,7 @@ var clusters = new L.MarkerClusterGroup({
         maxClusterRadius:20
     });
 
-var points = omnivore.geojson('data/CSA.json', null, L.mapbox.featureLayer());
+var points = omnivore.geojson('data/CSA.geojson', null, L.mapbox.featureLayer());
 var zips = L.mapbox.featureLayer(zip);
 var boro = L.mapbox.featureLayer(boroughs);
 
