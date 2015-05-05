@@ -1610,22 +1610,22 @@
     {
       "type": "Feature",
       "properties": {
-        "CSA": "Chse test",
-        "Address": "ocean",
+        "CSA": "NEW",
+        "Address": "TEST",
         "Day": "Sunday",
-        "Time": "night",
-        "Farm": "chase farms",
+        "Time": "TIME",
+        "Farm": "test",
         "Compost": 1,
         "Worship": 1,
         "SNAP": 1,
-        "Price": "$10000",
-        "Website": "cpgruber.github.io"
+        "Price": "$4444004",
+        "Website": "http://cpgruber.github.io"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.61114501953125,
-          40.53572049118792
+          -73.32275390625,
+          40.8210843390845
         ]
       }
     }
