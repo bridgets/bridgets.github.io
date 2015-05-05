@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Farm Share NYC map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+<script src='data/zip.js'></script>
+<script src='data/boroughs.js'></script>
+
+<style>
+body,h2,p { 
+    margin:0; padding:0; 
+    font-family:"Open Sans","Helvetica","Sans";
+}
+.item h2{
+    font-size: 20px;
+    font-weight: bold;
+    width:auto;
+}
+.item a:link,.item a:visited{
+    width:auto;
+    color:black;
+    text-decoration: none;
+}
+.item a:hover{
+    color:blue;
+}
+#map{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100%;
+}
+#list{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:310px;
+    height:100vh;
+    margin:0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    padding-right:15px;
+    z-index:1000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background:rgba(220,220,220,0.85);
+}
+#locations{
+    position:relative;
+    width:auto;
+    height:auto;
+    padding:0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top:100px;
+}
+#legend{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:325px;
+    border-top-right-radius: 20px;
+    background:rgba(220,220,220,0.95);
+    height:100px;
+}
+#listToggle{
+    position:absolute;
+    bottom:20px;
+    left:320px;
+    height:40px;
+    width:30px;
+    border:0px solid red;
+    background:rgba(220,220,220,0.95);
+    z-index:100;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#listToggle.hide{
+    background-image:url('icons/in.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:right;
+    z-index:10;
+}
+#listToggle.show{
+    background-image:url('icons/out.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:right;
+    z-index:1000;
+}
+#listToggle:hover{
+    cursor:pointer;
+}
+#dayContainer{
+    position:absolute;
+    top:65px;
+    left:320px;
+    height:40px;
+    border:0px solid red;
+    overflow: hidden;
+    z-index:10;
+}
+#dayToggle{
+    position:relative;
+    float:left;
+    width:40px;
+    height:100%;
+    border:0px solid red;
+    background-color: lightgray;
+    background-image:url('icons/cal.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:90% 80%;
+    z-index:100; 
+    opacity:0.9;
+}
+#dayToggle:hover{
+    cursor:pointer;
+}
+#dayToggle.show{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;   
+}
+#dayToggle.hide{
+    border-radius:0px;
+}
+#dayFilter{
+    position:relative;
+    float:left;
+    height:100%;
+    width:140px;
+    padding:8px;
+    background-color:lightgray;
+    z-index:100;
+    display:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    opacity:0.9;
+}
+#boroContainer{
+    position:absolute;
+    top:110px;
+    left:320px;
+    height:40px;
+    border:0px solid red;
+    overflow: hidden;
+    z-index:10;
+}
+#boroToggle{
+    position:relative;
+    float:left;
+    width:40px;
+    height:100%;
+    border:0px solid red;
+    background-color: lightgray;
+    background-image:url('icons/boro.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:100; 
+    opacity:0.9;
+}
+#boroToggle:hover{
+    cursor:pointer;
+}
+#boroToggle.show{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;   
+}
+#boroToggle.hide{
+    border-radius:0px;
+}
+#boroFilter{
+    position:relative;
+    float:left;
+    height:100%;
+    width:140px;
+    padding:8px;
+    background-color:lightgray;
+    z-index:100;
+    display:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    opacity:0.9;
+}
+#zipContainer{
+    position:absolute;
+    top:155px;
+    left:320px;
+    height:40px;
+    border:0px solid red;
+    overflow: hidden;
+    z-index:10;
+}
+#zipToggle{
+    position:relative;
+    float:left;
+    width:40px;
+    height:100%;
+    border:0px solid red;
+    background-color: lightgray;
+    background-image:url('icons/zip.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:100; 
+    opacity:0.9;
+}
+#zipToggle:hover{
+    cursor:pointer;
+}
+#zipToggle.show{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;   
+}
+#zipToggle.hide{
+    border-radius:0px;
+}
+#zipFilter{
+    position:relative;
+    float:left;
+    height:100%;
+    width:140px;
+    padding:8px;
+    background-color:lightgray;
+    z-index:100;
+    display:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    opacity:0.9;
+}
+.filter select{
+    width:100%;
+}
+.item{
+    position:relative;
+    display:block;
+    float:left;
+    width:300px;
+    height:auto;
+    border-top:2px solid black;
+    padding:10px;
+}
+.item:hover{
+    cursor:pointer;
+}
+.text{
+    position:relative;
+    float:left;
+    width:290px;
+    border:0px solid blue;
+}
+.itemtable{
+    vertical-align: middle;
+    border-top:1px solid black;
+    width:290px;
+}
+.tdname{
+    font-size:12px;
+    width:70px;
+}
+.tddata{
+    font-size:14px;
+    border-top:1px solid black;
+}
+.dt{
+    border-top:0px;
+}
+.icon{
+    float:right;
+    margin-left:2px;
+    margin-right:3px;
+    height:24px;
+    width:24px;
+}
+.icon img{
+    height:100%;
+    width:100%;
+  }
+.leaflet-popup-close-button{
+    display:none;
+}
+.mycluster {
+    width: 10px;
+    height: 10px;
+    background-color:rgba(214,84,60,0.5);
+    text-align: center;
+    font-size: 14px;
+    font-weight:bold;
+    border:0px solid red;
+    border-radius:100%;
+    padding-top:0px;
+}
+
+</style>
+</head>
+<body>
+
+<div id='map'></div>
+<div id="list">
+    <div id='locations'></div>
+    <div id='legend'>
+        <table>
+            <tr>
+                <td style="text-align:center"><div class='icon' style="margin-left:-5px;"><img src='CSA-icons/SNAP.png' /></div>
+                    <div class='icon' style="height:30px;width:30px;"><img src='icons/snapmarker.png' /></div></td>
+                <td>Sliding-scale/SNAP available</td>
+            </tr>
+            <tr>
+                <td style="text-align:center"><div class='icon'><img src='CSA-icons/compost.png' /></div></td>
+                <td>Onsite compost available</td>
+            </tr>
+            <tr>
+                <td style="text-align:center"><div class='icon'><img src='CSA-icons/worship.png' /></div></td>
+                <td>Place of worship</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="listToggle" class="hide" title="Hide Sidebar"></div>
+<div id="dayContainer">
+    <div id="dayToggle" class="show" title="Filter by Day"></div>
+    <div id="dayFilter" class="filter">
+    <select>
+            <option>All Days</option>
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+    </select>
+    </div>
+</div>
+<div id="boroContainer">
+    <div id="boroToggle" class="show" title="Zoom to Borough"></div>
+    <div id="boroFilter" class="filter">
+    <select>
+            <option>All City</option>
+            <option>Brooklyn</option>
+            <option>Bronx</option>
+            <option>Manhattan</option>
+            <option>Queens</option>
+            <option>Staten Island</option>
+    </select>
+    </div>
+</div>
+<div id="zipContainer">
+    <div id="zipToggle" class="show" title="Zoom to Zip Code"></div>
+    <div id="zipFilter" class="filter">
+        <input id="zipInput" type="text" placeholder="Enter NYC Zip Code" />
+    </div>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiYmxldTIzIiwiYSI6IkhJWXRBYlkifQ.5ljjcelMS1vZ67Xog38rBg';
+var initX = -74.2,initY=40.8,initZ=10;
+var southWest = L.latLng(40, -75),
+    northEast = L.latLng(41.5, -73),
+    bounds = L.latLngBounds(southWest, northEast);
+
+var map = L.mapbox.map('map', 'examples.map-i86nkdio', {zoomControl:false, maxBounds:bounds,minZoom:initZ})
+    .setView([initY, initX], initZ);
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
+var clusters = new L.MarkerClusterGroup({
+    iconCreateFunction: function (cluster) {
+        var markers = cluster.getChildCount();
+        return L.divIcon({html: markers, className: 'mycluster', iconSize:L.point(20,20)})
+    },
+        spiderfyOnMaxZoom: false,
+        showCoverageOnHover: false,
+        spiderLegPolylineOptions: {weight: 1, color:'#fff'},
+        maxClusterRadius:20
+    });
+
+var points = omnivore.geojson('data/CSA.json', null, L.mapbox.featureLayer());
+var zips = L.mapbox.featureLayer(zip);
+var boro = L.mapbox.featureLayer(boroughs);
+
+var dayList = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","DAY"];
+var dayLayers = [];
+for (var i = 0;i<dayList.length;i++){
+    var lyrgrp = L.featureGroup();
+    dayLayers.push(lyrgrp);
+};
+
+points.on("ready", function(){
+    points.eachLayer(function(layer){
+        var day = layer.feature.properties.Day.trim();
+        var snap = parseInt(layer.feature.properties.SNAP);
+        if (day.split(",").length>1){
+            var days = day.split(",");
+            for (var i=0;i<days.length;i++){
+                var index = dayList.indexOf(days[i].trim());
+                var dayGroup = dayLayers[index];
+                dayGroup.addLayer(layer);
+            }
+        }else{
+            var index = dayList.indexOf(day);
+            var dayGroup = dayLayers[index];
+            dayGroup.addLayer(layer);
+        }
+        if (snap == 1){
+            layer.setIcon(L.mapbox.marker.icon({
+                'marker-color': "#7ec9b1",
+                'marker-size': 'small',
+                'marker-symbol': ''
+            }));
+        }else{
+            layer.setIcon(L.mapbox.marker.icon({
+                'marker-color': "#D63C58",
+                'marker-size': 'small',
+                'marker-symbol': ''
+            }));
+        }
+        clusters.addLayer(layer);
+    });//points each layer
+buildLegend(points);
+});//points ready
+map.addLayer(clusters);
+
+function buildLegend(group){
+    $("#locations").empty();
+    var pointCt = 0;
+    group.eachLayer(function(layer){
+
+        var CSA = layer.feature.properties.CSA.trim();
+        var address = layer.feature.properties.Address.trim();
+        var day = layer.feature.properties.Day.trim();
+        var time = layer.feature.properties.Time.trim();
+
+        if (day.split(",").length>1){
+            var days = day.split(",");
+            var times = time.split(",");
+            var daystring="";
+            for (var i=0;i<days.length;i++){
+                daystring+=days[i]+", "+times[i]+"<br>";
+            }
+            daystring = daystring.slice(0,-4);
+        }else{
+            var daystring = day+", "+time;
+        }
+
+        var farm = layer.feature.properties.Farm.trim();
+        var worship = parseInt(layer.feature.properties.Worship);
+        var compost = parseInt(layer.feature.properties.Compost);
+        var snap = parseInt(layer.feature.properties.SNAP);
+        var website = layer.feature.properties.Website;
+        var price = layer.feature.properties.Price;
+        var popup = "<a href='"+website+"' target='_blank'>"+CSA+"</a>"
+        layer.bindPopup(popup);
+
+       var entry = "<div id='p"+pointCt+"' class='item'><div class='text'><h2><a target='_blank' href='"+website+"'>"+CSA+"</a></h2><p>"+address+"</p>";
+       entry += "<table class='itemtable'><tr><td class='tdname'>Pick-up:</td><td class='tddata dt'>"+daystring+"</td></tr><tr><td class='tdname'>";
+       entry += "Partner Farm:</td><td class='tddata'>"+farm+"</td></tr><tr><td class='tdname'>Price:</td><td class='tddata'>"+price+"</td></tr></table>";
+        
+        if (worship == 1){
+            entry += "<div class='icon'><img src='CSA-icons/worship.png' title='Place of Worship' /></div>";
+        }
+        if (compost == 1){
+            entry += "<div class='icon'><img src='CSA-icons/compost.png' title='Onsite Composting' /></div>";
+        }
+        if (snap == 1){
+            entry += "<div class='icon'><img src='CSA-icons/SNAP.png' title='Sliding-scale/SNAP' /></div>";
+        }
+        entry += "</div></div>"  
+
+        $("#locations").append(entry);
+
+        $("#p"+pointCt).on("click", function(){
+            map.setView(layer.getLatLng(), 16);
+            layer.openPopup();
+        });
+        pointCt +=1;
+    });//points each layer
+}//end build legend
+
+var boroughList = [];
+var boroughLayers = [];
+boro.eachLayer(function(layer){
+    var b = layer.feature.properties.borough;
+    layer.bindPopup(b).setStyle({
+      fillColor:"#ff0000",
+      weight:2,
+      color:"#ff0000",
+      opacity:0.8,
+      fillOpacity:0.2
+    });
+    if (boroughList.indexOf(b)== -1){
+        boroughList.push(b);
+        var bFL = L.featureGroup();
+        layer.addTo(bFL);
+        boroughLayers.push(bFL);
+    }else{
+        var index = boroughList.indexOf(b);
+        var bFL = boroughLayers[index];
+        layer.addTo(bFL);
+    }
+});//boro each layer
+function boroFlash(index){
+    boroughLayers[index].addTo(map)
+    setTimeout(function(){
+        map.removeLayer(boroughLayers[index]);
+    },1600)
+}
+
+var zipList = [];
+var zipLayers = [];
+zips.eachLayer(function(layer){
+    var z = layer.feature.properties.postalCode;
+    layer.bindPopup(z).setStyle({
+      fillColor:"#ff0000",
+      weight:2,
+      color:"#ff0000",
+      opacity:0.8,
+      fillOpacity:0.2
+    });
+    if (zipList.indexOf(z)== -1){
+        zipList.push(z);
+        var zFL = L.featureGroup();
+        layer.addTo(zFL);
+        zipLayers.push(zFL);
+    }else{
+        var index = zipList.indexOf(z);
+        var zFL = zipLayers[index];
+        layer.addTo(zFL);
+    }
+});//zip each layer
+function zipFlash(index){
+    zipLayers[index].addTo(map)
+    setTimeout(function(){
+        map.removeLayer(zipLayers[index]);
+    },1600)
+}
+
+$("#listToggle").on('click', function (){
+    if($(this).hasClass('hide')){
+        $(this).removeClass('hide').addClass('show');
+        $(this).animate({ left: 0 }, "slow");
+        $(this).prop('title', 'Show Sidebar');
+        $("#list").animate({ marginLeft: -306, opacity: 0 }, 600);
+        $("#legend").animate({ marginLeft: -306, opacity: 0 }, 600);
+        $("#dayContainer").animate({left:0},"slow");
+        $("#boroContainer").animate({left:0},"slow");
+        $("#zipContainer").animate({left:0},"slow");
+    }else{
+        $(this).removeClass('show').addClass('hide');
+        $(this).animate({ left: "320px" }, "slow");
+        $(this).prop('title', 'Hide Sidebar');
+        $("#list").animate({ marginLeft: 0, opacity: 1 }, 600);
+        $("#legend").animate({ marginLeft: 0, opacity: 1 }, 600);
+        $("#dayContainer").animate({left:"320px"},"slow");
+        $("#boroContainer").animate({left:"320px"},"slow");
+        $("#zipContainer").animate({left:"320px"},"slow");
+    }
+});//list toggle
+
+$("#dayToggle").on("click", function () {
+    if ($(this).hasClass('show')){
+        $("#dayFilter").show("slide",{ direction: "left" },600);
+        $(this).removeClass('show').addClass('hide');
+    }else{
+        $("#dayFilter").hide("slide",{ direction: "left" },600);
+        $(this).removeClass('hide').addClass('show');
+    }
+});//toggle day filter
+$("#boroToggle").on("click", function () {
+    if ($(this).hasClass('show')){
+        $("#boroFilter").show("slide",{ direction: "left" },600);
+        $(this).removeClass('show').addClass('hide');
+    }else{
+        $("#boroFilter").hide("slide",{ direction: "left" },600);
+        $(this).removeClass('hide').addClass('show');
+    }
+});//toggle boro search
+$("#zipToggle").on("click", function () {
+    if ($(this).hasClass('show')){
+        $("#zipFilter").show("slide",{ direction: "left" },600);
+        $(this).removeClass('show').addClass('hide');
+    }else{
+        $("#zipFilter").hide("slide",{ direction: "left" },600);
+        $(this).removeClass('hide').addClass('show');
+    }
+});//toggle zip search
+
+$("#dayFilter select").on("change", function () {
+    map.closePopup();
+    var index = $("#dayFilter option:selected").index()-1;
+    for (var i=0;i<dayLayers.length;i++){
+        if (index == -1){
+            map.addLayer(clusters).removeLayer(clusters);
+            map.addLayer(clusters);
+            buildLegend(points);
+        };
+        if (index!== -1){
+            map.removeLayer(clusters);
+        };
+        if (index==i){
+            map.addLayer(dayLayers[i+1]).removeLayer(dayLayers[i+1]);
+            map.addLayer(dayLayers[i]);
+            buildLegend(dayLayers[i]);
+        };
+        if (index !== i){
+            map.removeLayer(dayLayers[i])
+        };      
+    }
+});// day filter change
+
+$("#boroFilter select").on("change", function() {
+    map.closePopup();
+    var b = $("#boroFilter option:selected").html();
+    if (b=="All City"){
+        map.setView([initY,initX],initZ);      
+    }else{
+        var index = boroughList.indexOf(b);
+        map.fitBounds(boroughLayers[index].getBounds());
+        boroFlash(index);
+    }
+});//boro zoom
+
+$("#zipInput").on("keyup", function (event) {
+    if (event.keyCode == 13) {
+        var zc = $(this).val();
+        if(zipList.indexOf(zc)!== -1){
+            var index = zipList.indexOf(zc);
+            map.fitBounds(zipLayers[index].getBounds());
+            zipFlash(index);
+        }else{
+            console.log("must enter valid zip")
+            alert("Must enter valid NYC Zip Code");
+        }
+    }
+});//zip zoom
+
+});//document ready
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1633 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "811 Walton",
+        "Address": "811 Walton Ave",
+        "Day": "Monday",
+        "Time": "5-6:15pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "540/275",
+        "Website": "https://www.stoneledgefarmny.com/store/index.php/store/csa/21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9255905,
+          40.8255615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "111 Franklin Ave",
+        "Day": "Tuesday",
+        "Time": "TIME",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/300",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9578705,
+          40.6956596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "506 Franklin Ave",
+        "Day": "Tuesday",
+        "Time": "TIME",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/301",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9558868,
+          40.6814613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "153 Franklin St",
+        "Day": "Tuesday",
+        "Time": "TIME",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/302",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9581833,
+          40.7316513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "221 Nassau Avenue",
+        "Day": "Tuesday",
+        "Time": "TIME",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/303",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9437637,
+          40.7258797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "284 3rd Ave",
+        "Day": "Tuesday",
+        "Time": "TIME",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/304",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9863663,
+          40.6774597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "607 CSA",
+        "Address": "52 St. Nicholas Place",
+        "Day": "Friday",
+        "Time": "Time",
+        "Farm": "Various",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "550/305",
+        "Website": "http://www.the607csa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9408264,
+          40.8288383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Ansche Chesed",
+        "Address": "251 W 100th St",
+        "Day": "Wednesday",
+        "Time": "5:30-7:30pm (2014)",
+        "Farm": "Garden of Eve Organic Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "2",
+        "Price": "615.12/325.08 (2014)",
+        "Website": "http://www.tuvharetzcsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9704437,
+          40.7975883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Astoria CSA",
+        "Address": "35-30 35th St, Astoria NY 11106",
+        "Day": "Thursday",
+        "Time": "4:30-7:30pm",
+        "Farm": "Golden Earthworm Organic Farm",
+        "Compost": "1",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$405",
+        "Website": "http://astoriacsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9261017,
+          40.7558746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Bay Ridge CSA",
+        "Address": "Fourth Avenue Presbyterian Church, 6753 4th Avenue, Brooklyn NY 11220",
+        "Day": "Saturday",
+        "Time": "8:30-10:30am",
+        "Farm": "Hearty Roots",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "556/278",
+        "Website": "http://www.bayridgecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0227814,
+          40.635479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "BJ Hazorim CSA",
+        "Address": "257 W 88th St",
+        "Day": "Tuesday",
+        "Time": "4:30-7:30pm",
+        "Farm": "Free Bird Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "510/375/255",
+        "Website": "http://www.bj.org/social-justice/taking-action-through-direct-service/csa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9761734,
+          40.7901192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Bed Stuy CSA @ the Daily Press",
+        "Address": "505 Franklin Ave",
+        "Day": "Thursday",
+        "Time": "TIME",
+        "Farm": "Gonzalez Farm / El Poblano",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "490/350",
+        "Website": "https://squareup.com/market/bed-stuy-csa-at-the-daily-press-2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955513,
+          40.681385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Brooklyn Bridge CSA",
+        "Address": "124 Henry St.",
+        "Day": "Wednesday",
+        "Time": "5-8pm",
+        "Farm": "Sang Lee Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "703/361",
+        "Website": "http://www.brooklynbridgecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9934006,
+          40.6970367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Brooklyn Beet CSA",
+        "Address": "30 Third Avenue, Brooklyn NY",
+        "Day": "Tuesday",
+        "Time": "6-8pm",
+        "Farm": "Angel Family Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "561/280.50",
+        "Website": "http://www.brooklynbeet.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9807434,
+          40.6857109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "CSA Sprouts - Carnegie Hill CSA",
+        "Address": "Fifth Ave. @ E 90th St",
+        "Day": "Tuesday",
+        "Time": "3:30-6:50pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "530/280",
+        "Website": "http://csasprouts.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9582825,
+          40.7838326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Carroll Gardens CSA",
+        "Address": "192 2nd Place, Brooklyn",
+        "Day": "Saturday",
+        "Time": "10am-12pm",
+        "Farm": "Garden of Eve Organic Farm",
+        "Compost": "1",
+        "Worship": "0",
+        "SNAP": "2",
+        "Price": "635.04/335.04",
+        "Website": "https://sites.google.com/site/carrollgardenscsa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9959412,
+          40.6789703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Central Brooklyn CSA",
+        "Address": "1256 Dean St",
+        "Day": "Thursday",
+        "Time": "5-7pm",
+        "Farm": "Windflower Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "550/278 (highest sliding scale), 334/167 (lowest sliding scale)",
+        "Website": "https://centralbrooklyncsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9476089,
+          40.6765976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Clinton Hill CSA",
+        "Address": "170 Gates Ave.",
+        "Day": "Thursday",
+        "Time": "5-7:30pm",
+        "Farm": "Windflower Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "548(higher end of scale), 348 (lower end of scale)",
+        "Website": "http://www.clintonhillcsa.org/home/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96064,
+          40.6849098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Cobble Hill CSA",
+        "Address": "326 Clinton Street",
+        "Day": "Tuesday",
+        "Time": "4-8pm",
+        "Farm": "Green Thumb Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$518",
+        "Website": "http://www.cobblehillcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9950104,
+          40.6855087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Columbia University CSA",
+        "Address": "601 West 114th St.",
+        "Day": "Thursday",
+        "Time": "3-6pm",
+        "Farm": "Roxbury Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "2",
+        "Price": "$629",
+        "Website": "http://www.roxburyfarm.com/store/2237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9650497,
+          40.8069382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Crown Heights Farm Share",
+        "Address": "691 Prospect Place, Brooklyn NY",
+        "Day": "Tuesday",
+        "Time": "5-8pm",
+        "Farm": "Sang Lee Farms",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "450-710 (sliding scale)",
+        "Website": "http://chfarmshare.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9539337,
+          40.6747513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Cream of the Crop CSA",
+        "Address": "263 W 86th St at West End Ave",
+        "Day": "Tuesday",
+        "Time": "4:30-7pm",
+        "Farm": "Hepworth Farms",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "2",
+        "Price": "660/438",
+        "Website": "http://creamofthecropcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9772568,
+          40.7891388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Ditmas Park CSA",
+        "Address": "East 18th St &amp Dorchester Road",
+        "Day": "Tuesday,Wednesday",
+        "Time": "4:30-8pm,4:30-8pm",
+        "Farm": "Amantai Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "680/455",
+        "Website": "http://www.dpcsabrooklyn.com/wp/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9608765,
+          40.6403885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Dumbo/Vinegar Hill",
+        "Address": "50 Jay Street",
+        "Day": "Wednesday",
+        "Time": "5-8pm",
+        "Farm": "Sang Lee Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$590",
+        "Website": "http://www.dumbocsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9869385,
+          40.7035217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "East 88th St. CSA",
+        "Address": "316 East 88th Street",
+        "Day": "Tuesday",
+        "Time": "5-7pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$525",
+        "Website": "http://www.chycsa.org/category/locations/88-csa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Einstein CSA",
+        "Address": "1935 Eastchester Rd.",
+        "Day": "Thursday",
+        "Time": "2:30-6:30pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "1",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "770.00/385.00",
+        "Website": "https://sites.google.com/site/einsteincsa/home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8437424,
+          40.8524017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "East Williamsburg CSA",
+        "Address": "266 Skillman Avenue",
+        "Day": "Saturday",
+        "Time": "10am-1pm",
+        "Farm": "Hearty Roots Farm",
+        "Compost": "1",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "544.50/275",
+        "Website": "http://eastwilliamsburgcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9402313,
+          40.7161942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Farmspot CSA",
+        "Address": "33-50 82nd Street",
+        "Day": "Thursday",
+        "Time": "5:30-8:15pm",
+        "Farm": "Golden Earthworm Organic Farm",
+        "Compost": "1",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "587.08 or 401.44 or 239.72 (former two sliding scale)",
+        "Website": "http://farmspot.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885498,
+          40.7540207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Fishkill Farms CSA",
+        "Address": "336 3rd Street",
+        "Day": "Saturday",
+        "Time": "8am-12pm",
+        "Farm": "Fishkill Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "950/600 (includes fruit)",
+        "Website": "http://www.fishkillfarms.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9837952,
+          40.672863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Flatbush Farm Share",
+        "Address": "890 Flatbush Avenue, Brooklyn NY 11226",
+        "Day": "Wednesday",
+        "Time": "6-8pm",
+        "Farm": "Farm at Miller's Crossing",
+        "Compost": "1",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "710/402 (highest sliding scale) and 340/167 (lowest sliding scale)",
+        "Website": "https://flatbushfarmshare.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9592896,
+          40.6497307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Flushing CSA",
+        "Address": "137-35 Northern Boulevard, Flushing NY 11354",
+        "Day": "Thursday",
+        "Time": "5-8pm",
+        "Farm": "Golden Earthworm Organic Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "548/274",
+        "Website": "http://flushingcsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8300095,
+          40.7638893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Forest Hills CSA",
+        "Address": "50 Ascan Avenue",
+        "Day": "Tuesday",
+        "Time": "4-8pm",
+        "Farm": "Golden Earthworm Organic",
+        "Compost": "1",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "PRICE",
+        "Website": "http://foresthillscsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8418884,
+          40.7159462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Forest Hills Tuv Ha'Aretz CSA",
+        "Address": "106-06 Queens Blvd, Forest Hills NY 11375",
+        "Day": "Tuesday",
+        "Time": "5-8pm",
+        "Farm": "Golden Earthworm Organic Farm",
+        "Compost": "1",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "555/285",
+        "Website": "http://foresthillstuvcsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8474884,
+          40.7217293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Glendale CSA",
+        "Address": "74-10 88th Street",
+        "Day": "Saturday",
+        "Time": "8:30-10:30am",
+        "Farm": "Garden of Eve Organic Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "635.04/335.04",
+        "Website": "http://www.glendalecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8630371,
+          40.7083206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Grand St CSA",
+        "Address": "466 Grand Street",
+        "Day": "Tuesday",
+        "Time": "5:15-8pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$345",
+        "Website": "http://www.grandstreetcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9838943,
+          40.7152367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Greene Harvest CSA",
+        "Address": "757 Fulton Street",
+        "Day": "Saturday",
+        "Time": "9-11am",
+        "Farm": "Farm at Miller's Crossing",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "600/312",
+        "Website": "http://www.ghcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9742432,
+          40.6864586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Greenpoint Williamsburg",
+        "Address": "McCarren Park",
+        "Day": "Saturday",
+        "Time": "9am-12pm",
+        "Farm": "Garden of Eve Organic Farm (and others)",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "635.04/335.04",
+        "Website": "http://gwcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9530182,
+          40.7192497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Greenpoint Williamsburg",
+        "Address": "129 Russell St",
+        "Day": "Wednesday",
+        "Time": "6-8pm",
+        "Farm": "Garden of Eve Organic Farm and Market",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "635.04/335.05",
+        "Website": "http://gwcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9446564,
+          40.7248116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Harvest Astoria CSA",
+        "Address": "30-14 Crescent Street, Astoria NY",
+        "Day": "Wednesday",
+        "Time": "6-8pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "$405",
+        "Website": "http://www.harvestastoria.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9253998,
+          40.7683411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Haven's Kitchen CSA",
+        "Address": "109 West 17th Street",
+        "Day": "Wednesday",
+        "Time": "4-6pm",
+        "Farm": "Katchkie Farms",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$640",
+        "Website": "http://havenskitchen.com/blog/csa-2015/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995903,
+          40.7397003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Hawthorne Valley Riverdale CSA",
+        "Address": "5521 Mosholu Ave.",
+        "Day": "Thursday",
+        "Time": "3:30-7pm",
+        "Farm": "Hawthorne Valley",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$610",
+        "Website": "http://hawthornevalleystore.org/product-category/riverdale-ny/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9011383,
+          40.9053688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Hebrew Institute of Riverdale CSA",
+        "Address": "3700 Henry Hudson Parkway",
+        "Day": "Wednesday",
+        "Time": "5-8pm",
+        "Farm": "Hearty Roots Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "535/265",
+        "Website": "https://csaathir.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9103699,
+          40.8878593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Hellgate CSA",
+        "Address": "29-13 23rd Avenue",
+        "Day": "Tuesday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Green Thumb Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "518 or 259 subsidized share",
+        "Website": "http://hellgatecsa.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9132309,
+          40.7749481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Jan Hus CSA",
+        "Address": "351 East 74th Street",
+        "Day": "Monday",
+        "Time": "4-6:30pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$515",
+        "Website": "https://janhuscsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9554977,
+          40.7695618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Kensington Windsor Terrace CSA",
+        "Address": "E. 4th St between Caton St and Fort Hamilton Expressway",
+        "Day": "Wednesday,Saturday",
+        "Time": "4:30-6:30pm,10:30am-12pm",
+        "Farm": "Garden of Eve Organic Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "635/335",
+        "Website": "http://kwtcsa.blogspot.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9709091,
+          40.6141396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Lex Ave CSA",
+        "Address": "East 87th Street",
+        "Day": "Monday",
+        "Time": "4:30-6:30pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$545",
+        "Website": "http://www.lexavecsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9557953,
+          40.7806168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Lineage Farm CSA - Greenpoint",
+        "Address": "136 Milton Street",
+        "Day": "Saturday",
+        "Time": "10:30am-12:30pm",
+        "Farm": "Lineage Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "502/306",
+        "Website": "http://www.lineagefarmcsa.com/product/greenpoint/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9549026,
+          40.7292595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Locust Point CSA",
+        "Address": "3300 Tierney Place",
+        "Day": "Monday",
+        "Time": "6-8pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$540",
+        "Website": "https://www.facebook.com/LocustPointCSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7993698,
+          40.8161583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Long Island City CSA",
+        "Address": "36-49 11th Street",
+        "Day": "Wednesday",
+        "Time": "5-8pm",
+        "Farm": "Farm at Miller's Crossing",
+        "Compost": "2",
+        "Worship": "2",
+        "SNAP": "2",
+        "Price": "639.18/329.90",
+        "Website": "http://longislandcitycsa.squarespace.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Mae Mae Cafe CSA",
+        "Address": "68 Vandam St.",
+        "Day": "Wednesday",
+        "Time": "4-7pm",
+        "Farm": "Katchkie Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$640",
+        "Website": "http://katchkiefarm.com/csas/mae-mae-cafe-community-csa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0069046,
+          40.7264137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Merchants Gate CSA",
+        "Address": "John Jay College of Criminal Justice, 860 Eleventh Avenue",
+        "Day": "Wednesday",
+        "Time": "4-7pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$395",
+        "Website": "http://www.merchantsgatecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Mid Island CSA",
+        "Address": "121 Cleveland Avenue",
+        "Day": "Thursday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Circle Brook Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$630",
+        "Website": "http://www.midislandcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1480103,
+          40.5481415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Morningside Heights CSA",
+        "Address": "118th and Broadway",
+        "Day": "Sunday",
+        "Time": "10:30am-12:30pm",
+        "Farm": "La Baraja Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "PRICE",
+        "Website": "https://morningsideheightscsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9636765,
+          40.8092613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Mount Sinai Hospital Farm Share",
+        "Address": "1245 Park Ave",
+        "Day": "Monday",
+        "Time": "2-7pm",
+        "Farm": "Stoneledge Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "0",
+        "Price": "$525",
+        "Website": "http://www.mountsinai.org/about-us/who-we-are/greening-mount-sinai/get-involved/farm-share"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9539948,
+          40.7905922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Norwood CSA Food Cooperative",
+        "Address": "2974-2980 Bainbridge Ave., Bronx NY 10458",
+        "Day": "Thursday",
+        "Time": "4-7pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "770/385",
+        "Website": "http://www.sporknyc.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884079,
+          40.8708115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Ozone Park CSA",
+        "Address": "101-41 91st Street",
+        "Day": "Thursday",
+        "Time": "6-8pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "770/385",
+        "Website": "https://ozoneparkcsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Parkchester CSA",
+        "Address": "1891 McGraw Avenue, Bronx NY,10462",
+        "Day": "Saturday",
+        "Time": "10am-12pm",
+        "Farm": "W. Rogowski Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "405/202.50",
+        "Website": "http://parkchestercsa.blogspot.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8623199,
+          40.8347282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Park Slope CSA",
+        "Address": "Garden of Union, 4th Ave and Union Street",
+        "Day": "Tuesday,Thursday",
+        "Time": "4-7:30pm,4-7:30pm",
+        "Farm": "Windflower Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "506/253",
+        "Website": "http://www.parkslopecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9825,
+          40.6769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Prince George CSA",
+        "Address": "14 E 28th Street, New York NY 10016",
+        "Day": "Thursday",
+        "Time": "4:30-7:30pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$355",
+        "Website": "http://www.princegeorgecsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9863663,
+          40.7441368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Sixth Street Community Center",
+        "Address": "638 East 6th Street, New York NY 10009",
+        "Day": "Tuesday",
+        "Time": "5-9pm",
+        "Farm": "Hepworth Farms",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "695/445 (highest end sliding scale) and 430/265 (lowest end sliding scale)",
+        "Website": "http://www.sixthstreetcenter.org/community-supported-agriculture.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9802475,
+          40.7236519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "South Shore CSA",
+        "Address": "7033 Amboy Road",
+        "Day": "Thursday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Circle Brook Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$630",
+        "Website": "http://www.southshorecsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.235939,
+          40.5165482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Stanton Street CSA",
+        "Address": "M'Finda Kalunga Garden",
+        "Day": "Thursday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Windflower Farm",
+        "Compost": "1",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$515",
+        "Website": "https://stantonstreetcsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9921722,
+          40.7199707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Staten Island CSA",
+        "Address": "76 Franklin Ave.",
+        "Day": "Thursday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Circle Brook Farm",
+        "Compost": "1",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "$622",
+        "Website": "http://statenislandcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0924454,
+          40.6435471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Sunnyside CSA",
+        "Address": "43-31 39th Street",
+        "Day": "Thursday",
+        "Time": "5-8pm",
+        "Farm": "Golden Earthworm Organic Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "$570",
+        "Website": "http://sunnysidecsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9257278,
+          40.7451744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Sunset Park CSA",
+        "Address": "352 42nd Street, Brooklyn NY 11232",
+        "Day": "Wednesday",
+        "Time": "5:30-7:30pm",
+        "Farm": "MimoMex",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "597/304 (higher end sliding scale) or 385/200 (lower end sliding scale)",
+        "Website": "http://www.sunsetparkcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0089111,
+          40.651329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Sweet Pea CSA",
+        "Address": "116 Pierrepoint",
+        "Day": "Wednesday",
+        "Time": "4:30-7:30pm",
+        "Farm": "Garden of Eve Organic Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$635.04",
+        "Website": "http://www.sweetpeacsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992775,
+          40.6954079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Project Harmony CSA",
+        "Address": "223 W 122nd St",
+        "Day": "Thursday",
+        "Time": "5-7:30pm",
+        "Farm": "Gonzalez Farms",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "440.00 (highest level of sliding scale) 390.00 (regular price sliding scale) 340.00 (subsidized share) 340.00 (SNAP)",
+        "Website": "http://www.projectharmonynyc.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8458023,
+          40.7846718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Turtle Bay CSA",
+        "Address": "Vanderbilt YMCA, 47th Street, New York NY",
+        "Day": "Tuesday",
+        "Time": "5-8pm",
+        "Farm": "Free Bird Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "510/375",
+        "Website": "http://turtlebaycsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9708023,
+          40.753231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Washington Square CSA",
+        "Address": "St Mark's Church in the Bowery, 131 E 10th St, New York NY 10003",
+        "Day": "Tuesday",
+        "Time": "4-8pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "$390",
+        "Website": "http://www.washingtonsquarecsa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9882278,
+          40.7305183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "West Village CSA",
+        "Address": "46 West 16th Street",
+        "Day": "Tuesday",
+        "Time": "4-7pm",
+        "Farm": "Stoneledge Farms",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "1",
+        "Price": "605 or 535 regular price or 425 to income-qualified members",
+        "Website": "http://westvillagecsa.org/?page_id=24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9952621,
+          40.7380295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "West Harlem CSA",
+        "Address": "601 West 114th Street NYC",
+        "Day": "Tuesday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Windflower Farm",
+        "Compost": "0",
+        "Worship": "0",
+        "SNAP": "1",
+        "Price": "554/278 (highest end sliding scale) or 334/167 (lowest end sliding scale) 150/75 SNAP",
+        "Website": "https://westharlemcsa.wordpress.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9647369,
+          40.8066788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Youth Farm",
+        "Address": "ADDRESS",
+        "Day": "DAY",
+        "Time": "TIME",
+        "Farm": "FARM",
+        "Compost": "2",
+        "Worship": "2",
+        "SNAP": "2",
+        "Price": "PRICE",
+        "Website": "http://hspsfarm.blogspot.com/p/farm-share-csa.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Yellow Hook CSA",
+        "Address": "4140 80th Street",
+        "Day": "Thursday",
+        "Time": "6-8pm",
+        "Farm": "Rogowski Farms",
+        "Compost": "0",
+        "Worship": "1",
+        "SNAP": "0",
+        "Price": "530/265",
+        "Website": "http://yellowhookcsa.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.026123,
+          40.6267853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Chse test",
+        "Address": "ocean",
+        "Day": "Sunday",
+        "Time": "night",
+        "Farm": "chase farms",
+        "Compost": 1,
+        "Worship": 1,
+        "SNAP": 1,
+        "Price": "$10000",
+        "Website": "cpgruber.github.io"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61114501953125,
+          40.53572049118792
+        ]
+      }
+    }
+  ]
+}
