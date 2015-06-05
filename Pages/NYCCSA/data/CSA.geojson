@@ -1628,6 +1628,28 @@
           40.80107587088608
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "Enterprise Farm CSA",
+        "Address": "187 Dekalb Ave",
+        "Day": "Friday",
+        "Time": "3-7pm",
+        "Farm": "Enterprise Farm",
+        "Compost": 0,
+        "Worship": 0,
+        "SNAP": 1,
+        "Website": "http://enterprisefarmcsa.com/?page_id=8",
+        "Price": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35914611816406,
+          40.81069108268215
+        ]
+      }
     }
   ]
 }
