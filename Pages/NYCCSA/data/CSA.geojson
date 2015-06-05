@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "607 CSA",
-        "Address": "221 Nassau Avenue",
+        "Address": "221 Nassau Ave",
         "Day": "Tuesday",
         "Time": "tba",
         "Farm": "Various",
@@ -137,7 +137,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "607 CSA",
-        "Address": "52 St. Nicholas Place",
+        "Address": "52 St. Nicholas Pl",
         "Day": "Friday",
         "Time": "tba",
         "Farm": "Various",
@@ -181,7 +181,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Astoria CSA",
-        "Address": "35-30 35th St, Astoria NY 11106",
+        "Address": "35-30 35th St",
         "Day": "Thursday",
         "Time": "4:30-7:30pm",
         "Farm": "Golden Earthworm Organic Farm",
