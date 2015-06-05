@@ -269,7 +269,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Brooklyn Bridge CSA",
-        "Address": "124 Henry St.",
+        "Address": "124 Henry St",
         "Day": "Wednesday",
         "Time": "5-8pm",
         "Farm": "Sang Lee Farm",
@@ -1648,6 +1648,17 @@
         "coordinates": [
           -73.35914611816406,
           40.81069108268215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33580017089842,
+          40.81926563675481
         ]
       }
     }
