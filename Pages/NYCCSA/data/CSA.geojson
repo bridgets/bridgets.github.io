@@ -445,7 +445,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Crown Heights Farm Share",
-        "Address": "691 Prospect Place, Brooklyn NY",
+        "Address": "691 Prospect Pl",
         "Day": "Tuesday",
         "Time": "5-8pm",
         "Farm": "Sang Lee Farms",
@@ -467,7 +467,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Cream of the Crop CSA",
-        "Address": "263 W 86th St at West End Ave",
+        "Address": "263 W 86th St ",
         "Day": "Tuesday",
         "Time": "4:30-7pm",
         "Farm": "Hepworth Farms",
@@ -511,7 +511,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Dumbo/Vinegar Hill",
-        "Address": "50 Jay Street",
+        "Address": "50 Jay St",
         "Day": "Wednesday",
         "Time": "5-8pm",
         "Farm": "Sang Lee Farm",
@@ -533,7 +533,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "East 88th St. CSA",
-        "Address": "316 East 88th Street",
+        "Address": "316 East 88th St",
         "Day": "Tuesday",
         "Time": "5-7pm",
         "Farm": "Stoneledge Farm",
@@ -577,7 +577,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "East Williamsburg CSA",
-        "Address": "266 Skillman Avenue",
+        "Address": "266 Skillman Ave",
         "Day": "Saturday",
         "Time": "10am-1pm",
         "Farm": "Hearty Roots Farm",
@@ -599,7 +599,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Farmspot CSA",
-        "Address": "33-50 82nd Street",
+        "Address": "33-50 82nd St",
         "Day": "Thursday",
         "Time": "5:30-8:15pm",
         "Farm": "Golden Earthworm Organic Farm",
@@ -643,7 +643,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Flatbush Farm Share",
-        "Address": "890 Flatbush Avenue, Brooklyn NY 11226",
+        "Address": "890 Flatbush Ave",
         "Day": "Wednesday",
         "Time": "6-8pm",
         "Farm": "Farm at Miller's Crossing",
@@ -665,7 +665,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Flushing CSA",
-        "Address": "137-35 Northern Boulevard, Flushing NY 11354",
+        "Address": "137-35 Northern Blvd",
         "Day": "Thursday",
         "Time": "5-8pm",
         "Farm": "Golden Earthworm Organic Farm",
@@ -687,7 +687,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Forest Hills CSA",
-        "Address": "50 Ascan Avenue",
+        "Address": "50 Ascan Ave",
         "Day": "Tuesday",
         "Time": "4-8pm",
         "Farm": "Golden Earthworm Organic",
@@ -709,7 +709,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Forest Hills Tuv Ha'Aretz CSA",
-        "Address": "106-06 Queens Blvd, Forest Hills NY 11375",
+        "Address": "106-06 Queens Blvd Forest Hills NY 11375",
         "Day": "Tuesday",
         "Time": "5-8pm",
         "Farm": "Golden Earthworm Organic Farm",
@@ -731,7 +731,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Glendale CSA",
-        "Address": "74-10 88th Street",
+        "Address": "74-10 88th St",
         "Day": "Saturday",
         "Time": "8:30-10:30am",
         "Farm": "Garden of Eve Organic Farm",
@@ -753,7 +753,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Grand St CSA",
-        "Address": "466 Grand Street",
+        "Address": "466 Grand St",
         "Day": "Tuesday",
         "Time": "5:15-8pm",
         "Farm": "Norwich Meadows Farm",
@@ -775,7 +775,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Greene Harvest CSA",
-        "Address": "757 Fulton Street",
+        "Address": "757 Fulton St",
         "Day": "Saturday",
         "Time": "9-11am",
         "Farm": "Farm at Miller's Crossing",
@@ -841,7 +841,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Harvest Astoria CSA",
-        "Address": "30-14 Crescent Street, Astoria NY",
+        "Address": "30-14 Crescent St",
         "Day": "Wednesday",
         "Time": "6-8pm",
         "Farm": "Norwich Meadows Farm",
@@ -863,7 +863,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Haven's Kitchen CSA",
-        "Address": "109 West 17th Street",
+        "Address": "109 West 17th St",
         "Day": "Wednesday",
         "Time": "4-6pm",
         "Farm": "Katchkie Farms",
@@ -885,7 +885,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Hawthorne Valley Riverdale CSA",
-        "Address": "5521 Mosholu Ave.",
+        "Address": "5521 Mosholu Ave",
         "Day": "Thursday",
         "Time": "3:30-7pm",
         "Farm": "Hawthorne Valley",
@@ -1193,7 +1193,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Norwood CSA Food Cooperative",
-        "Address": "2974-2980 Bainbridge Ave., Bronx NY 10458",
+        "Address": "2974-2980 Bainbridge Ave",
         "Day": "Thursday",
         "Time": "4-7pm",
         "Farm": "Norwich Meadows Farm",
