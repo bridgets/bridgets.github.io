@@ -1214,28 +1214,6 @@
     {
       "type": "Feature",
       "properties": {
-        "CSA": "Ozone Park CSA",
-        "Address": "101-41 91st Street",
-        "Day": "Thursday",
-        "Time": "6-8pm",
-        "Farm": "Norwich Meadows Farm",
-        "Compost": "0",
-        "Worship": "1",
-        "SNAP": "0",
-        "Price": "$770/$385",
-        "Website": "https://ozoneparkcsa.wordpress.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73,
-          41
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "CSA": "Parkchester CSA",
         "Address": "1891 McGraw Avenue, Bronx NY,10462",
         "Day": "Saturday",
@@ -1566,28 +1544,6 @@
     {
       "type": "Feature",
       "properties": {
-        "CSA": "Youth Farm",
-        "Address": "600 Kingston Ave.",
-        "Day": "Wednesday",
-        "Time": "2:30-6:30pm",
-        "Farm": "Youth Farm",
-        "Compost": "2",
-        "Worship": "2",
-        "SNAP": "2",
-        "Price": "$625/$550/$500",
-        "Website": "http://hspsfarm.blogspot.com/p/farm-share-csa.html"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.94303894042969,
-          41.04052016955172
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "CSA": "Yellow Hook CSA",
         "Address": "4140 80th Street",
         "Day": "Thursday",
@@ -1610,16 +1566,16 @@
     {
       "type": "Feature",
       "properties": {
-        "CSA": "NEW",
-        "Address": "TEST",
-        "Day": "Sunday",
-        "Time": "TIME",
-        "Farm": "test",
-        "Compost": 1,
-        "Worship": 1,
+        "CSA": "Fulton Market CSA",
+        "Address": "5 Hanover Square",
+        "Day": "Monday",
+        "Time": "5:30-7:30pm",
+        "Farm": "Norwich Meadows Farm",
+        "Compost": 0,
+        "Worship": 0,
         "SNAP": 1,
-        "Price": "",
-        "Website": "http://cpgruber.github.io"
+        "Price": "$423.67",
+        "Website": "https://fultonmarketcsa.wordpress.com/"
       },
       "geometry": {
         "type": "Point",
