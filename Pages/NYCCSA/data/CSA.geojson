@@ -929,7 +929,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Hellgate CSA",
-        "Address": "29-13 23rd Avenue",
+        "Address": "29-13 23rd Ave",
         "Day": "Tuesday",
         "Time": "5:30-7:30pm",
         "Farm": "Green Thumb Farm",
@@ -951,7 +951,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Jan Hus CSA",
-        "Address": "351 East 74th Street",
+        "Address": "351 East 74th St",
         "Day": "Monday",
         "Time": "4-6:30pm",
         "Farm": "Stoneledge Farm",
@@ -995,7 +995,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Lex Ave CSA",
-        "Address": "East 87th Street",
+        "Address": "East 87th St",
         "Day": "Monday",
         "Time": "4:30-6:30pm",
         "Farm": "Stoneledge Farm",
@@ -1017,7 +1017,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Lineage Farm CSA - Greenpoint",
-        "Address": "136 Milton Street",
+        "Address": "136 Milton St",
         "Day": "Saturday",
         "Time": "10:30am-12:30pm",
         "Farm": "Lineage Farm",
@@ -1039,7 +1039,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Locust Point CSA",
-        "Address": "3300 Tierney Place",
+        "Address": "3300 Tierney Pl",
         "Day": "Monday",
         "Time": "6-8pm",
         "Farm": "Stoneledge Farm",
@@ -1061,7 +1061,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Long Island City CSA",
-        "Address": "36-49 11th Street",
+        "Address": "36-49 11th St",
         "Day": "Wednesday",
         "Time": "5-8pm",
         "Farm": "Farm at Miller's Crossing",
@@ -1083,7 +1083,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Mae Mae Cafe CSA",
-        "Address": "68 Vandam St.",
+        "Address": "68 Vandam St",
         "Day": "Wednesday",
         "Time": "4-7pm",
         "Farm": "Katchkie Farm",
@@ -1105,7 +1105,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Merchants Gate CSA",
-        "Address": "John Jay College of Criminal Justice, 860 Eleventh Avenue",
+        "Address": "",
         "Day": "Wednesday",
         "Time": "4-7pm",
         "Farm": "Norwich Meadows Farm",
@@ -1127,7 +1127,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Mid Island CSA",
-        "Address": "121 Cleveland Avenue",
+        "Address": "121 Cleveland Ave",
         "Day": "Thursday",
         "Time": "5:30-7:30pm",
         "Farm": "Circle Brook Farm",
