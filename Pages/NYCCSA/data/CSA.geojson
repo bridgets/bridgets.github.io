@@ -1590,13 +1590,42 @@
       "properties": {
         "CSA": "Greene Harvest CSA",
         "Address": "757 Fulton Ave",
-        "Day": ""
+        "Day": "Saturday",
+        "Time": "9:00-11:00am",
+        "Farm": "Farm at Miller's Crossing",
+        "Compost": 0,
+        "Worship": 0,
+        "SNAP": 1,
+        "Website": "http://www.ghcsa.org",
+        "Price": "$600/$312 (unsubsidized); $188/$156 (low-income/SNAP"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -73.38180541992188,
           40.78989968531352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CSA": "East Williamsburg CSA",
+        "Address": "264 Skillman Ave",
+        "Day": "Saturday",
+        "Time": "10am-12pm",
+        "Farm": "Hearty Roots Farm",
+        "Compost": 1,
+        "Worship": 0,
+        "SNAP": 1,
+        "Price": "$544.50/$275",
+        "Website": "http://eastwilliamsburgcsa.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34026336669922,
+          40.80107587088608
         ]
       }
     }
