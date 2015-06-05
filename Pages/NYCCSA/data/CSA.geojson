@@ -291,7 +291,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Brooklyn Beet CSA",
-        "Address": "30 Third Avenue, Brooklyn NY",
+        "Address": "30 Third Ave",
         "Day": "Tuesday",
         "Time": "6-8pm",
         "Farm": "Angel Family Farm",
@@ -335,7 +335,7 @@
       "type": "Feature",
       "properties": {
         "CSA": "Carroll Gardens CSA",
-        "Address": "192 2nd Place, Brooklyn",
+        "Address": "192 2nd Pl",
         "Day": "Saturday",
         "Time": "10am-12pm",
         "Farm": "Garden of Eve Organic Farm",
