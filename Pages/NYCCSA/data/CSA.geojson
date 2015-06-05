@@ -1653,7 +1653,18 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "CSA": "CSA at the Fort ",
+        "Day": "Tuesday ",
+        "Address": "422 Weaver Ave",
+        "Farm": "tba",
+        "Time": "tba",
+        "Compost": 0,
+        "Worship": 0,
+        "SNAP": 0,
+        "Price": "tba",
+        "Website": "NA"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
